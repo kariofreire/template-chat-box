@@ -1,0 +1,136 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.button-activeGisa {
+	background-color: #555;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	opacity: 0.8;
+	position: fixed;
+	bottom: 23px;
+	right: 28px;
+	width: 280px;
+}
+
+.right {
+	margin-right: 1px;
+}
+
+.cards {
+	width: 20rem;
+	position: fixed;
+	right: 28px;
+	bottom: 23px;
+	height: 400px;
+}
+
+.gisaPhoto {
+	margin-bottom: 2px;
+}
+
+.gisaPhoto img {
+	width: 52px !important;
+	height: 52px !important;
+}
+
+.alert-studartrh {
+	background-color: #009D97;
+	color: white;
+}
+
+.cards-body {
+	overflow: auto;
+}
+
+.cards-body::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+
+.cards-body::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+}
+
+.cards-body::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+}
+
+.none {
+	display: none;
+}
+
+#gisaClose {
+	cursor: pointer;
+	color: #009D97;
+}
+
+.cards-header span {
+	text-align: left !important;
+}
+
+.gisa-button {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:120px;
+	right:40px;
+	background-color: #009D97;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	font-size:30px;
+	box-shadow: 2px 2px 2px 2px #999;
+	z-index:100;
+	border: 0;
+	outline-style: none !important;
+}
+
+.cards {
+	z-index: 200;
+}
+
+/* Icon Gisa */
+.iconGisa {
+	margin-bottom: 20px;
+	margin-top: -90px;
+	margin-left: -10px;
+}
+
+/* Tooltip */
+.tooltips {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+}
+
+.tooltips .tooltipstext {
+	visibility: hidden;
+	width: 250px;
+	background-color: #009D97;
+	opacity: 1.0;
+	color: #FFF;
+	text-align: left;
+	border-radius: 6px;
+	padding: 5px;
+	position: absolute;
+	z-index: 1;
+	top: -35px;
+	right: 105%;
+	font-size: 15px;
+	margin-right: 35px;
+}
+
+.visibilityOn {
+	visibility: visible!important;
+}
+
+.visibilityOff {
+	visibility: hidden;
+}
